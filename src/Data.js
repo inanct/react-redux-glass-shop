@@ -1,0 +1,22 @@
+export const storeData = [
+   { name:"Scott",
+    price: 96.46,
+    image:"https://m.media-amazon.com/images/I/41pq3NeKY6L._AC_UL320_.jpg",
+    amount: 1,
+},
+ { name:"Olie",
+    price: 90.46,
+    image:"https://m.media-amazon.com/images/I/41pq3NeKY6L._AC_UL320_.jpg",
+    amount: 3,
+},
+ { name:"Percy",
+    price: 86.46,
+    image:"https://m.media-amazon.com/images/I/41pq3NeKY6L._AC_UL320_.jpg",
+    amount: 4,
+},
+ { name:"Jeremy",
+    price: 78.46,
+    image:"https://m.media-amazon.com/images/I/41pq3NeKY6L._AC_UL320_.jpg",
+    amount: 2,
+}
+]
