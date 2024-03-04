@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import BasketProducts from './components/BasketProducts'
+import { useDispatch, useSelector } from 'react-redux'
+import { updateTotal } from './features/basketSlice'
 
 const App = () => {
+  const {products} = useSelector((store) => store.basket);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(updateTotal())
+  }, [products, dispatch])
   return (
     <div>
       <Navbar/>
